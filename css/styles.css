@@ -1,26 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
 
 .logo {
-    width: 75px;
+    width: 85px;
 }
 
 header h1 {
     color: #c9c983;
-    font-family: 'Satisfy', cursive;
+    font-family: Satisfy, cursive;
     margin-top: 20px;
 }
 
+.nav-pills a {
+    color: #0d4415;
+    border: #0d4415 solid 1px;
+}
 .nav-pills > li.active > a {
-    color: #5c433f;
-    background-color: #eeddcd;
+    color: #0d4415;
+    background-color: #9fbb9f;
 }
 
 /* Jumbotron Section */
 .jumbotron {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/Banner\ 2.jpg);
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 250px;
 }
 
 .jobotron2 h2 {
