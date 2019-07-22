@@ -1,2 +1,2 @@
-# MJK_WebDesign
-Personal Web Page 
+# mfw-pet-store
+Mobile Friendly Websites Pet Store Project Boilerplate Repository

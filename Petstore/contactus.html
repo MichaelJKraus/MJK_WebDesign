@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- Emmet Code: (.container>header.row>(col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo+h1.pull-left.text-center{Pet
+	Store})+(nav.col-xs-12.col-sm-7.col-md-6>ul.nav.nav-pills.pull-right>(li[role="presentation"]>a)*3)) -->
+    <div class="container">
+        <header class="row">
+            <col-xs-8 class="col-sm-4 col-md-6 centered">
+                <img src="img/petstore_logo.png" alt="Pet Store" class="pull-left logo">
+                <h1 class="pull-left text-center">Pet Store</h1>
+            </col-xs-8>
+            <nav class="col-xs-12 col-sm-7 col-md-6">
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="#">Products</a></li>
+                    <li role="presentation" class="active"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End of Nav Bar -->
+
+    <!-- JUMBOTRON -->
+    <!-- (.jumbotron>.container.text-center.text-uppercase>h2{The products they love. The prices you like.})*! -->
+
+    <!-- Main Section -->
+    <!-- Emmet Code: (section.container>.row>.col-sm-7.text-justify.featured>h2.text-uppercase{Featured}+p{lorem}+.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img-responsive+(.col-sm-12.col-xs-6>h4+p{Lorem}+button.btn.bt-xs.center-block{Buy
+	Now!})))*3) -->
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6 text-justify featured">
+                <h2 class="text-uppercase">Veterinarian Department</h2>
+                <p>Our Vetrinarian staff is top notch. Our doctors are abreast of the newest and most advanced practices in pet heathcare. Combine them with our expertly train veterinary surgical and care staff and we deliver the best pet care experience in the central valley of California. </p>
+                <div class="row">
+                    <div class="col-sm-6 product">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6 img_box">
+                                <img src="img/doctor1.jpg" alt="" class="img-responsive">
+                                <img-responsive></img-responsive>
+                                <div class="col-sm-12 col-xs-6">
+                                    <h4><b>Dr. Jimmy Smith</b></h4>
+                                    <p>Dr. Smith is a graduate of <b>Ross University</b> where he graduate at the top of his class. He has been working as vertrinary doctor for <b>Pet Store</b> since his graduation in 2010. Dr. Smith specializes in the care of <i>Reptiles & Birds.</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 product">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-6 img_box">
+                                <img src="img/doctor2.jpg" alt="" class="img-responsive">
+                                <img-responsive></img-responsive>
+                                <div class="col-sm-12 col-xs-6">
+                                    <h4><b>Dr. Jane Doe</b></h4>
+                                    <p>Dr. Doe is a graduate of the esteemed <b>St. George University</b> , the United states top ranked vetrinarian college, as <b>Valedictorian</b> of the class of 2012. She rounds out our vetrinarian department with her specialization in <i>Dogs & Cats.</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th>Department</th>
+                                        <th>Phone Number</th>
+                                        <th>Extension</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Store Main</td>
+                                        <td>(559) 555-1212</td>
+                                        <td>----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Register</td>
+                                        <td>(559) 555-1212</td>
+                                        <td>#310</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dog & Cat Deptartment</td>
+                                        <td>(559) 555-1212</td>
+                                        <td>#320</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bird Department</td>
+                                        <td>(559) 555-1212</td>
+                                        <td>#330</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Veterinarian Department</td>
+                                        <td>(559) 555-1212</td>
+                                        <td>#340</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Veterinarian After-Hours Pager</td>
+                                        <td>(559) 867-5309</td>
+                                        <td>----</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Emmet Code: (aside.col-sm-3.col-sm-offset-2>h2.text-center.text-uppercase{Services}+ul.nav.nav-pills.nav-stacked.text-center>(li[role=presentation]>a.text-uppercase{Adopt a}+p{Lorem})*3) -->
+            <aside class="col-sm-6">
+                <h2 class="text-center text-uppercase">Store Map</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.603161519528!2d-119.78799814890818!3d36.73209087913162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f58091%3A0xf082a7e633ee41f0!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1563580640196!5m2!1sen!2sus"
+                    width="490" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <img src="img/cat.jpg" alt="Cat" class="cat">
+                    <img src="img/dog.jpg" alt="Dog" class="dog">
+            </aside>
+        </div>
+    </section>
+    <!-- End Main Section -->
+    <!-- Footer -->
+    <!-- Emmet Code: (footer>.container-fluid>.row.centered>(.col-xs-6.col-sm-1.col-sm-offset-1>img[src="img/petstore_logo.png"][alt="Pet Store Logo"].logo) -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row centered">
+                <div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/petstore_logo.png" alt="Pet Store Logo"
+                        class="logo">
+                </div>
+                <!-- Emmet Code: (.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>(a>{Pet Store}>br{Fresno, California}>br)+(a{info@petstore.com}))) -->
+                <div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
+                    <address>
+                        <a href="https://goo.gl/maps/ueKzH5EjtgrfFYAz6"
+                            alt="Pet Store Address 1223 Main St, Fresno, California" target="_blank">
+                            Pet Store<br>700 Van Ness Ave </br>Fresno, California 93721<br>
+                        </a>
+                        <a href="">info@petstore.com</a>
+                    </address>
+                </div>
+                <!-- Emmet Code: .col-sm-2.social>(a>(i.fab.fa+span.hidden-xs{Facebook}))*3 -->
+                <div class="col-sm-2 social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i>
+                        <span class="hidden-xs">
+                            Facebook
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i>
+                        <span class="hidden-xs">
+                            Twitter
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i>
+                        <span class="hidden-xs">
+                            LinkedIn
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 fine_print text-center">
+                <p>&copy; Pet Store Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Emmet Code:  -->
+    <!-- Added content and completed index page on 7/17/18 @ 8:33PM-->
+    <!-- End of Footer -->
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
