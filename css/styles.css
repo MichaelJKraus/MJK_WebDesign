@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
 
+a:link {
+    color: #0d4415
+}
+
 .logo {
     width: 85px;
 }
