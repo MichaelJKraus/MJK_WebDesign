@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJK Michael J. Kraus Web Design</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- Emmet Code: (.container>header.row>(col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo+h1.pull-left.text-center{Pet
+	Store})+(nav.col-xs-12.col-sm-7.col-md-6>ul.nav.nav-pills.pull-right>(li[role="presentation"]>a)*3)) -->
+    <div class="container">
+        <header class="row">
+            <col-xs-8 class="col-sm-4 col-md-6 centered">
+                <img src="img/MJK ICON Green.png" alt="MJK Web Design Icon" class="pull-left logo">
+                <h1 class="pull-left text-center">Web Design</h1>
+            </col-xs-8>
+            <nav class="col-xs-12 col-sm-7 col-md-6">
+                <ul id="navButtons" class="nav nav-pills pull-right">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="Restaurante/index.html" target="_blank">Current Project</a></li>
+                    <li role="presentation" class="active"><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End of Nav Bar -->
+
+    <!-- JUMBOTRON -->
+    <!-- (.jumbotron>.container.text-center.text-uppercase>h2{The products they love. The prices you like.})*! -->
+    <div class="jumbotron">
+        <div class="container text-center text-uppercase">
+            <h2></h2>
+        </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+    <!-- Main Section -->
+    <!-- Emmet Code: (section.container>.row>.col-sm-7.text-justify.featured>h2.text-uppercase{Featured}+p{lorem}+.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img-responsive+(.col-sm-12.col-xs-6>h4+p{Lorem}+button.btn.bt-xs.center-block{Buy
+	Now!})))*3) -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form id="emailForm">
+                    <h2>Send me a message!</h2>
+                    <p>Please use the form below to send me a message in regard to a project you wish to have completed, feedback about my web designs, or just drop me a message to say hello. All feedback and constructive criticism is welcomed. I will respond to your message as soon as possible. Thank you for stopping by.</p>
+                    <div class="form-group">
+                        <label for="inputEmail1">Email address:</label>
+                        <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName1">Name:</label>
+                        <input type="text" class="form-control" id="inputName1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSubject1">Subject:</label>
+                        <input type="text" class="form-control" id="inputSubject1" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage1">Message:</label>
+                        <input type="text" class="form-control" id="inputMessage1" placeholder="Message">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div id="address" class="col-sm-6">
+                <a href="https://goo.gl/maps/8ZtiXwJtA2BqR5xo7" target="_blank">MAILING ADDRESS:</br>7722 N Angus Avenue</br>Fresno,
+                    Claifornia 93720
+                </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.686628397568!2d-119.78102204890565!3d36.849980472496725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809442a519b044e5%3A0x9a0c20e06e36a8c3!2s7722+N+Angus+St%2C+Fresno%2C+CA+93720!5e0!3m2!1sen!2sus!4v1564328114126!5m2!1sen!2sus" width="500" height="250" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+                <div id="lgSocial">
+                    <a target="_blank" href="https://www.facebook.com/mkraus1224"><i class="fab fa-facebook-square"></i>
+                        <span class="hidden-xs">
+                            Facebook
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.twitter.com/MichaelJKraus"><i
+                            class="fab fa-twitter-square"></i>
+                        <span class="hidden-xs">
+                            Twitter
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/michael-j-kraus"><i
+                            class="fab fa-linkedin"></i>
+                        <span class="hidden-xs">
+                            LinkedIn
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i>
+                        <span class="hidden-xs">
+                            Instagram
+                        </span>
+                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Section -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row centered">
+                <div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/MJK LOGO Green.png" alt="Pet Store Logo"
+                        class="logo">
+                </div>
+                <!-- Emmet Code: (.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>(a>{Pet Store}>br{Fresno, California}>br)+(a{info@petstore.com}))) -->
+                <div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
+                    <address>
+                        <a href="https://goo.gl/maps/8ZtiXwJtA2BqR5xo7"
+                            alt="MJK Web Design 7722 N Angus Ave, Fresno, California 93720" target="_blank">
+                            MJK Web Design<br>7722 N Angus Ave </br>Fresno, California 93720<br>
+                        </a>
+                        <a href="">mjkraus@att.net</a>
+                    </address>
+                </div>
+                <!-- Emmet Code: .col-sm-2.social>(a>(i.fab.fa+span.hidden-xs{Facebook}))*3 -->
+                <div class="col-sm-2 social">
+                    <a target="_blank" href="https://www.facebook.com/mkraus1224"><i class="fab fa-facebook-square"></i>
+                        <span class="hidden-xs">
+                            Facebook
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.twitter.com/MichaelJKraus"><i
+                            class="fab fa-twitter-square"></i>
+                        <span class="hidden-xs">
+                            Twitter
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/michael-j-kraus"><i
+                            class="fab fa-linkedin"></i>
+                        <span class="hidden-xs">
+                            LinkedIn
+                        </span>
+                        <br class="hidden-xs">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram">
+                            <span class="hidden-xs">
+                                Instagram
+                            </span>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 fine_print text-center">
+                <p class="rights">&copy; MJK Web Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of Footer -->
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
