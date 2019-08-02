@@ -9,6 +9,14 @@ a:link {
     width: 85px;
 }
 
+#blogEntry h2 {
+    color: #c9c983;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px #0a0a0a;
+    padding-bottom: 20px
+}
+
 header h1 {
     color: #c9c983;
     font-family: 'Pacifico', cursive;
