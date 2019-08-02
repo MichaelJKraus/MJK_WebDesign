@@ -83,7 +83,11 @@ header h1 {
     border-color: #0d4415;
     background-color: #9fbb9f;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
+}
+
+#emailFormGroup {
+    padding-bottom: 20px;
 }
 
 #emailForm p {
