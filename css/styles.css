@@ -1,16 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico&display=swap');
 
-a:link {
-    color: #0d4415;
-    
+a:link, a:visited {
+    color: #fff;
 }
 
 .logo {
     width: 130px;
 }
 
-#blogEntry h2 {
+#resourcesEntry p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d4415;
+}
+
+#blogEntry h2, #resourcesEntry h2 {
     color: #c9c983;
     font-family: 'Pacifico', cursive;
     font-size: 3em;
@@ -30,18 +34,19 @@ header h1 {
     color: #0d4415;
     border: #0d4415 solid 2px;
 }
+
 .nav-pills > li.active > a {
-    color: #0d4415;
-    background-color: #fff;
+    color: #fff;
+    background-color: #0d4415;
 }
 
 .nav-pills > li.active > a:hover,
 .nav-pills > li > a:hover {
-    background-color: #0d4415;
+    background-color: #9fbb9f;
     color: #fff;
 }
 
-#navButtons {
+#navButtons li {
     font-family: 'Josefin Sans' sans-serif;
 }
 
@@ -76,25 +81,29 @@ header h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#projects button {
-    background-color: #fff;
-    color: #0d4415;
+#projects button:hover {
+    background-color: #9fbb9f;
+}
+
+#projects button, #projects button:visited {
+    background-color: #0d4415;
+    color: #fff;
     border: #0d4415 solid 2px;
 }
 
-#project p {
-    height: 500px;
+#projects img {
+    height: 175px;
 }
 
 /* Blog */
 #blog h2 {
-    font-family: "Pacifico", cursive;
+    font-family: 'Pacifico', cursive;
     color: #c9c983;
     text-shadow: 3px 3px 5px #0a0a0a;
 }
 
 #blog p {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #0d4415;
 }
 
@@ -111,7 +120,7 @@ header h1 {
 }
 
 #emailForm p {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #0d4415;
 }
 
@@ -121,8 +130,14 @@ header h1 {
     text-shadow: 3px 3px 3px #0a0a0a;
     
 }
-footer{
+footer, footer a:link, footer a:visited {
     background-color: #9fbb9f;
+    color: #0d4415
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20px;
 }
 
 .rights {
