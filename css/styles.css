@@ -35,6 +35,12 @@ header h1 {
     background-color: #fff;
 }
 
+.nav-pills > li.active > a:hover,
+.nav-pills > li > a:hover {
+    background-color: #0d4415;
+    color: #fff;
+}
+
 #navButtons {
     font-family: 'Josefin Sans' sans-serif;
 }
@@ -121,4 +127,8 @@ footer{
 
 .rights {
     background-color: #fff;
+}
+
+li a:hover {
+    background-color: #0d4415;
 }
