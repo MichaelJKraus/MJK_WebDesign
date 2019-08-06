@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico&display=swap');
 
 a:link {
-    color: #0d4415
+    color: #0d4415;
+    
 }
 
 .logo {
-    width: 85px;
+    width: 130px;
 }
 
 #blogEntry h2 {
@@ -22,15 +23,16 @@ header h1 {
     font-family: 'Pacifico', cursive;
     text-shadow: 3px 3px 5px #0a0a0a;
     margin-top: 20px;
+    font-size: 4em;
 }
 
 .nav-pills a {
     color: #0d4415;
-    border: #0d4415 solid 1px;
+    border: #0d4415 solid 2px;
 }
 .nav-pills > li.active > a {
     color: #0d4415;
-    background-color: #9fbb9f;
+    background-color: #fff;
 }
 
 #navButtons {
@@ -44,12 +46,6 @@ header h1 {
     background-position: center;
     height: 250px;
 }
-
-/* .jobotron2 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight:300;
-    color: #fff;
-} */
 
 /* Large Social */
 
@@ -72,6 +68,16 @@ header h1 {
 
 #projects p {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+#projects button {
+    background-color: #fff;
+    color: #0d4415;
+    border: #0d4415 solid 2px;
+}
+
+#project p {
+    height: 500px;
 }
 
 /* Blog */
