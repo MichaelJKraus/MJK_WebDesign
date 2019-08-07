@@ -6,7 +6,7 @@ a:link, a:visited {
 }
 
 .logo {
-    width: 130px;
+    width: 120px;
 }
 
 #resourcesEntry p {
@@ -27,7 +27,7 @@ header h1 {
     font-family: 'Pacifico', cursive;
     text-shadow: 3px 3px 5px #0a0a0a;
     margin-top: 20px;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .nav-pills a {
